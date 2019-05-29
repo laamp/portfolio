@@ -1,6 +1,3 @@
-@import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
-
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
@@ -100,10 +97,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #4b2868 15%, #252525 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #4b2868 15%, #252525 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #4b2868 15%, #252525 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #4b2868 15%, #252525 85%);
+		background-image: -moz-linear-gradient(45deg, #4b2868 15%, #252525 85%);
+		background-image: -webkit-linear-gradient(45deg, #4b2868 15%, #252525 85%);
+		background-image: -ms-linear-gradient(45deg, #4b2868 15%, #252525 85%);
+		background-image: linear-gradient(45deg, #4b2868 15%, #252525 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -260,7 +257,7 @@ input, select, textarea {
 	code {
 		border-radius: 8px;
 		border: solid 1px;
-		font-family: "Courier New", monospace;
+		font-family: "Roboto Mono", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -268,7 +265,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Roboto Mono", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
